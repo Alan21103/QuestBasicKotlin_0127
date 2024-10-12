@@ -1,5 +1,19 @@
 package com.example.praktikum1
 
+// Conditional Expression
+// Conditional Expression adalah ekspresi yang mengembalikan nilai berdasarkan kondisi tertentu
+// Conditional expresion menggunakan if-else, when, dan try-catch
+fun ConditionalStatment(){
+    println("=== Conditional Expression")
+
+// If-Else
+    val number = 10
+    if (number > 0){
+        println("Positive Number")
+    }else {
+        println("Negative Number")
+    }
+
 fun Perulangan() {
     println()
     println("=== Perulangan ===")
@@ -25,4 +39,6 @@ fun Perulangan() {
         y++
     } while (y <= 5)
 }
+
+
 
